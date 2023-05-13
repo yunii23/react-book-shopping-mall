@@ -1,0 +1,50 @@
+[
+    {
+        "bookNum": 1,
+        "publicationDate": "2023.05.10",
+        "title": "제목1",
+        "summary": "내용1",
+        "cover": "image1",
+        "genres": ["장르1"]
+    },
+    {
+        "bookNum": 2,
+        "publicationDate": "2022.05.10",
+        "title": "제목2",
+        "summary": "내용2",
+        "cover": "image2",
+        "genres": ["장르2"]
+    },
+    {
+        "bookNum": 3,
+        "publicationDate": "2021.05.10",
+        "title": "제목3",
+        "summary": "내용3",
+        "cover": "image1",
+        "genres": ["장르3"]
+    },
+    {
+        "bookNum": 4,
+        "publicationDate": "2020.05.10",
+        "title": "제목4",
+        "summary": "내용4",
+        "cover": "image2",
+        "genres": ["장르4"]
+    },
+    {
+        "bookNum": 5,
+        "publicationDate": "2019.05.10",
+        "title": "제목5",
+        "summary": "내용6",
+        "cover": "image1",
+        "genres": ["장르5", "장르1"]
+    },
+    {
+        "bookNum": 6,
+        "publicationDate": "2018.05.10",
+        "title": "제목6",
+        "summary": "내용6",
+        "cover": "image2",
+        "genres": ["장르1", "장르2", "장르6"]
+    }
+]
