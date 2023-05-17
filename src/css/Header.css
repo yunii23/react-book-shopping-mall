@@ -1,0 +1,148 @@
+body {
+    min-width: 1130px;
+}
+header {
+    margin: 0 10 0 10;
+}
+
+
+.firstMenu {
+    height: 38px;
+    border-bottom: solid 1px #f0f0f0;
+}
+.firstMenu div {
+    display: inline-block;
+}
+.firstMenu ul {
+    padding-left: 0;
+    list-style: none;
+    margin: 0;
+}
+.firstMenu li {
+    display: inline-block;
+    position: relative;
+    line-height: 38px;
+}
+.firstMenu .menu li {
+    padding-right: 27px;
+}
+.firstMenu .menu li::after {
+    content: "";
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    height: 3px;
+    width: 3px;
+    background-color: #e6e6e6;
+}
+.firstMenu .menu li:last-child::after {
+    display: none;
+}
+.firstMenu .menu li:first-child a {
+    color: #141414;
+}
+.firstMenu a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #787878;
+    font-weight: bold;
+}
+.firstMenu .userMenu {
+    float: right;
+}
+.firstMenu .userMenu li {
+    padding-left: 27px;
+}
+.firstMenu .userMenu li:first-child::after {
+    content: "";
+    position: absolute;
+    right: -18px;
+    top: 50%;
+    height: 3px;
+    width: 3px;
+    background-color: #e6e6e6;
+}
+
+
+.secondMenu {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr;
+    height: 72px;
+}
+.secondMenu h1 {
+    display: inline-block;
+}
+.secondMenu h1 a {
+    text-decoration: none;
+    font-size: 23px;
+    color: #1e9eff;
+}
+.secondMenu .search, .secondMenu .menuIcon {
+    display: inline-block;
+}
+.secondMenu .search input {
+    width: 259px;
+    height: 39px;
+    background-color: #f0f0f0;
+    padding-left: 50px;
+    border: none;
+    border-radius: 6px;
+    margin: 16px 0;
+    outline: none;
+    text-align: 20px;
+    background-image: url(../image/search.png);
+    background-repeat: no-repeat;
+    background-position: 13px 13px;
+}
+.secondMenu ul {
+    padding-left: 0;
+    list-style: none;
+    margin: 25px 0 23px 0;
+}
+.secondMenu ul li {
+    display: inline-block;
+    position: relative;
+}
+.secondMenu .menuIcon ul li a {
+    display: block;
+    text-decoration: none;
+    color: transparent;
+    overflow: hidden;
+    width: 27px;
+    height: 24px;
+    font-size: 5px;
+}
+.secondMenu ul li:nth-child(1) a {
+    margin-left: 23px;
+    margin-right: 25px;
+    background: url(../image/notification.png) no-repeat;
+}
+.secondMenu ul li:nth-child(2) a {
+    margin-right: 27px;
+    background: url(../image/basket.png) no-repeat;
+}
+.secondMenu ul li:nth-child(3) a {
+    margin-right: 27px;
+    background: url(../image/myBook.png) no-repeat;
+}
+.secondMenu ul li:nth-child(4) a {
+    background: url(../image/user.png) no-repeat;
+}
+
+#popup {
+    position: absolute;
+    width: 463px;
+    height: 261px;
+    border: 1px solid #f0f0f0;
+    border-radius: 7px;
+}
+#popup p {
+    margin: 26px 19px 22px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #787878;
+}
+.invisible {
+    display: none;
+}
