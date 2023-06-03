@@ -38,14 +38,20 @@ header {
 .firstMenu .menu li:last-child::after {
     display: none;
 }
-.firstMenu .menu li:first-child a {
+/* .firstMenu .menu li:first-child a {
     color: #141414;
-}
-.firstMenu a {
+} */
+.firstMenu .aBtn {
     text-decoration: none;
     font-size: 14px;
     color: #787878;
     font-weight: bold;
+}
+.firstMenu .aBtn:hover {
+    color: #c8c8c8;
+}
+.firstMenu .menu .active {
+    color: #141414;
 }
 .firstMenu .userMenu {
     float: right;
@@ -73,10 +79,14 @@ header {
 .secondMenu h1 {
     display: inline-block;
 }
-.secondMenu h1 a {
+.secondMenu h1 .h1A {
     text-decoration: none;
     font-size: 23px;
     color: #1e9eff;
+}
+.secondMenu h1 .changeTitle {
+    font-size: 23px;
+    color: #000;
 }
 .secondMenu .search, .secondMenu .menuIcon {
     display: inline-block;
@@ -104,7 +114,7 @@ header {
     display: inline-block;
     position: relative;
 }
-.secondMenu .menuIcon ul li a {
+.secondMenu .menuIcon ul li .iconLink {
     display: block;
     text-decoration: none;
     color: transparent;
@@ -113,20 +123,20 @@ header {
     height: 24px;
     font-size: 5px;
 }
-.secondMenu ul li:nth-child(1) a {
+.secondMenu ul li:nth-child(1) .iconLink {
     margin-left: 23px;
     margin-right: 25px;
     background: url(../image/notification.png) no-repeat;
 }
-.secondMenu ul li:nth-child(2) a {
+.secondMenu ul li:nth-child(2) .iconLink {
     margin-right: 27px;
     background: url(../image/basket.png) no-repeat;
 }
-.secondMenu ul li:nth-child(3) a {
+.secondMenu ul li:nth-child(3) .iconLink {
     margin-right: 27px;
     background: url(../image/myBook.png) no-repeat;
 }
-.secondMenu ul li:nth-child(4) a {
+.secondMenu ul li:nth-child(4) .iconLink {
     background: url(../image/user.png) no-repeat;
 }
 
